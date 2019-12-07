@@ -42,8 +42,10 @@ std::ostream& operator<<(std::ostream& out, const SARSA::Actions value){
     return out << strings[value];
 }
 
+unsigned int SARSA::MAX_ATTEMPTS = 50;
+
 SARSA::SARSA() : s((State) 0), s_next((State) 0), a(STOP), a_next(STOP), r(0.0),
-		alpha(0.8), gamma(1), epsilon(.1){
+		alpha(0.8), gamma(1), epsilon(.1), attempts(1){
 	for (int i = 0; i!= State::LAST; i++){
 		for (int j = Actions::LEFT; j!= Actions::ALAST; j++){
 			State s = static_cast<State>(i);
@@ -51,6 +53,7 @@ SARSA::SARSA() : s((State) 0), s_next((State) 0), a(STOP), a_next(STOP), r(0.0),
 			Q[pair<State, Actions>(s, a)] = 0;
 		}
 	}
+	statistics.open("statistics.txt", std::ios_base::app);
 }
 
 SARSA::Actions SARSA::getActionFromEpsilonGreedy(){
@@ -103,6 +106,17 @@ SARSA::Actions SARSA::chooseOtherActions(){
 void SARSA::updateQ(){
 	Q[pair<State, Actions>(s, a)] += alpha * (r + gamma * Q[pair<State, Actions>(s_next, a_next)] - Q[pair<State, Actions>(s, a)]);
 	cout << "Q(" << s <<", " << a << "): " << Q[pair<State, Actions>(s, a)] << endl;
+}
+
+void SARSA::saveAndCloseFile(){
+	statistics << "epsilon:" << epsilon << endl;
+	if (attempts >= MAX_ATTEMPTS){
+		statistics << "attempts:INFINITY" << endl;
+
+	}else{
+		statistics << "attempts:" << attempts << endl;
+	}
+	statistics.close();
 }
 
 SARSA::~SARSA() {}

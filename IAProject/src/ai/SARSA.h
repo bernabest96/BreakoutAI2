@@ -10,6 +10,7 @@
 
 #include <map>
 #include <list>
+#include <fstream>
 using namespace std;
 
 namespace ai {
@@ -25,10 +26,14 @@ public:
 	double r;
 	float alpha, gamma;
 	double epsilon;
+	ofstream statistics;
+	unsigned int attempts;
+	static unsigned int MAX_ATTEMPTS;
 	map<pair<State, Actions>, double> Q;	//(s,a) --> Q(s, a)
 	SARSA();
 	Actions getActionFromEpsilonGreedy();
 	void updateQ();
+	void saveAndCloseFile();
 	virtual ~SARSA();
 private:
 	Actions argmax();

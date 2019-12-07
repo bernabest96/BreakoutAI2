@@ -102,15 +102,28 @@ float observeReward(ai::SARSA::State s, ai::SARSA::State s_next, ai::SARSA::Acti
 			(1 / (double)GameUtils::RESOLUTION.x);
 
 	}else{
-		reward += -5 * abs(ball->circleCenter.x - board->rectCenter.x) *
+		float penalty = 5;
+		if (s != ai::SARSA::CENTER && a == ai::SARSA::STOP){
+			reward -= 5;
+		}
+		if (s==ai::SARSA::DOWN_LEFT || s == ai::SARSA::DOWN_RIGHT){
+			penalty = 10;
+		}
+		reward += -penalty * abs(ball->circleCenter.x - board->rectCenter.x) *
 				(1 / (double)GameUtils::RESOLUTION.x);
 
 	}
 	return reward;
 }
 
-int main()
+int main(int argc, char *argv[])
 {
+	double eps;
+	if (argc == 1)	eps = 1;
+	if (argc == 2){
+		 eps = strtod(argv[1], 0);
+	}
+	if (argc > 2)	return 1;
 
 	//Initialization
 	sf::RenderWindow window(VideoMode(GameUtils::RESOLUTION.x, GameUtils::RESOLUTION.y), "Atari Breakout");
@@ -124,7 +137,7 @@ int main()
     menu::Menu* menu = nullptr;
     Board* board = nullptr;
     Ball* ball = nullptr;
-    //GameOver* gameOver = nullptr;
+    GameOver* gameOver = nullptr;
     Winning* winning = nullptr;
     Keyboard::Key key = Keyboard::Key::Unknown;
     bool erase_list = true;
@@ -170,7 +183,7 @@ int main()
         	menu = nullptr;
 
 			board = new Board();
-	        objects.insert(pair<string, GameObject*>("BOARD", board));
+			objects.insert(pair<string, GameObject*>("BOARD", board));
 
 	        for (int i=0; i< 20; i++){
 				int x = i % 10;
@@ -233,6 +246,7 @@ int main()
 				objects.insert(pair<string, GameObject*>("BALL", ball));
 			}
         	board->setAI();
+        	board->sarsa.epsilon = eps;
 
         	//SARSA ALGORITHM
         	if (GameUtils::INIT_SARSA){
@@ -255,7 +269,6 @@ int main()
 
         	//RESET
 			if (GameUtils::RESET_LIFE){
-
 				//ERASE
 				for (int i=0; i< 20; i++){
 					string brick_str = "BRICK";
@@ -285,6 +298,7 @@ int main()
 				GameUtils::INIT_SARSA = true;
 				GameUtils::GAMEPOINTS = 0;
 				GameUtils::count_brick = 0;
+				board->sarsa.attempts++;
 
 			}
 			cout << "GameUtils::BRICK : " << GameUtils::BRICK << endl;
@@ -294,9 +308,14 @@ int main()
 				GameUtils::count_brick++;
 				GameUtils::BRICK = "NONE";
 			}
-
+        	//GAME OVER
+        	if (board->sarsa.attempts >= ai::SARSA::MAX_ATTEMPTS){
+        		board->sarsa.saveAndCloseFile();
+        		GameUtils::CURRENT_STATE = GameUtils::gamestates::GAME_OVER;
+        	}
         	//WINNING
 			if (GameUtils::count_brick == 20){
+				board->sarsa.saveAndCloseFile();
 				GameUtils::CURRENT_STATE = GameUtils::gamestates::WINNING;
 			}
         }else if (GameUtils::CURRENT_STATE == GameUtils::gamestates::WINNING){
@@ -324,27 +343,23 @@ int main()
 			}
 
 
-        }/*else if (GameUtils::CURRENT_STATE == GameUtils::gamestates::GAME_OVER){
+        }else if (GameUtils::CURRENT_STATE == GameUtils::gamestates::GAME_OVER){
+
         	if (ball != nullptr){
 				objects.erase("BALL");
 				delete ball;
 				ball = nullptr;
 			}
-        	if (board != nullptr){
+			if (board != nullptr){
 				objects.erase("BOARD");
 				ai = board->getAI();
 				delete board;
 				board = nullptr;
 			}
 
-        	if (ball != nullptr){
-				objects.erase("MENU");
-				delete menu;
-				menu = nullptr;
-			}
-        	if (!list_brick){
-				list_brick = true;
-				for (int i=0; i< 50; i++){
+			if (erase_list){
+				erase_list = false;
+				for (int i=0; i< 20; i++){
 					string brick_str = "BRICK";
 					objects.erase(brick_str.append(std::to_string(i)));
 				}
@@ -353,7 +368,7 @@ int main()
         		gameOver = new GameOver(ai);
         		objects.insert(pair<string, GameObject*>("GAME_OVER", gameOver));
 			}
-        }*/
+        }
 
         //Game Logic
         map<string, GameObject*>::iterator i, j, l;
