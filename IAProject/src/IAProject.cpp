@@ -183,6 +183,7 @@ int main(int argc, char *argv[])
         	menu = nullptr;
 
 			board = new Board();
+			board->sarsa.saveEpsilon(eps);
 			objects.insert(pair<string, GameObject*>("BOARD", board));
 
 	        for (int i=0; i< 20; i++){
@@ -197,47 +198,6 @@ int main(int argc, char *argv[])
 	        if (GameUtils::CURRENT_STATE == GameUtils::GAME_INIT_PLAYER)	GameUtils::CURRENT_STATE = GameUtils::GAME_PLAYER;
         }/*else if (GameUtils::CURRENT_STATE == GameUtils::gamestates::GAME_PLAYER){
         	//Player logic
-        	if (ball==nullptr){
-        		ball = new Ball();
-        		objects.insert(pair<string, GameObject*>("BALL", ball));
-        	}
-        	if (GameUtils::BRICK != "NONE"){
-        		objects.erase(GameUtils::BRICK);
-        		GameUtils::count_brick++;
-        		GameUtils::BRICK = "NONE";
-        	}
-
-        	//RESET
-			if (GameUtils::RESET_LIFE){
-				GameUtils::RESET_LIFE = false;
-				for (int i=0; i< 50; i++){
-					string brick_str = "BRICK";
-					string brick_str1 = brick_str.append(std::to_string(i));
-					//ERASE
-					objects.erase(brick_str1);
-					//INSERT
-					int x = i % 10;
-					int y = int(i/10);
-					Brick* brick = new Brick(x, y);
-					brick->setProperties(brickColors[4 - y], 5);
-					objects.insert(pair<string, GameObject*>(brick_str.append(std::to_string(i)), brick));
-
-				}
-				board->rect->setPosition(Vector2f(0.5 * (GameUtils::RESOLUTION.x - GameUtils::RESOLUTION.x/10), GameUtils::RESOLUTION.y-10));	//posizione del centro
-				board->acc = 0;
-				board->speedx = 0;
-				ball->ball->setPosition(540 - 10, 680-20-10 -1);	//680-10-10
-				std::srand(time(0));
-				int sign = rand() % 2;
-				if (sign == 0) sign = -1;
-				ball->speed = Vector2f(sign * 70, -100);
-
-			}
-
-        	if (GameUtils::count_brick == 50){
-				GameUtils::CURRENT_STATE = GameUtils::gamestates::WINNING;
-			}
-
         }*/
         else if (GameUtils::CURRENT_STATE == GameUtils::gamestates::GAME_CPU){
         	//AI logic
@@ -246,7 +206,6 @@ int main(int argc, char *argv[])
 				objects.insert(pair<string, GameObject*>("BALL", ball));
 			}
         	board->setAI();
-        	board->sarsa.epsilon = eps;
 
         	//SARSA ALGORITHM
         	if (GameUtils::INIT_SARSA){
@@ -293,15 +252,16 @@ int main(int argc, char *argv[])
 				int sign = rand() % 2;
 				if (sign == 0) sign = -1;
 				ball->speed = Vector2f(sign * 70, -100);
-				GameUtils::BRICK = "";
+				GameUtils::BRICK = "NONE";
 				GameUtils::RESET_LIFE = false;
 				GameUtils::INIT_SARSA = true;
 				GameUtils::GAMEPOINTS = 0;
-				GameUtils::count_brick = 0;
 				board->sarsa.attempts++;
+				board->sarsa.recordBlocks(GameUtils::count_brick);
+				GameUtils::count_brick = 0;
 
 			}
-			cout << "GameUtils::BRICK : " << GameUtils::BRICK << endl;
+			cout << "GameUtils::count_brick : " << GameUtils::count_brick << endl;
         	//ERASE BRICK
         	if (GameUtils::BRICK != "NONE"){
         		objects.erase(GameUtils::BRICK);

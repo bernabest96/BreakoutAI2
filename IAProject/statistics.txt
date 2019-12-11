@@ -1,4 +1,1081 @@
-epsilon:0
+epsilon:0.1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:9
+attempts:5
+epsilon:0.1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:13
+attempts:15
+epsilon:0.1
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:7
+epsilon:0.1
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:2
+number of blocks:1
+attempts:6
+epsilon:0.1
+number of blocks:2
+attempts:2
+epsilon:0.1
+number of blocks:1
+number of blocks:1
+number of blocks:2
+number of blocks:6
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
 attempts:9
-epsilon:0.25
+epsilon:0.1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:6
+epsilon:0.1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:2
+number of blocks:4
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:21
+epsilon:0.1
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:7
+epsilon:0.1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:3
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:5
+number of blocks:1
+number of blocks:1
+attempts:18
+epsilon:0.2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
 attempts:INFINITY
+epsilon:0.2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:INFINITY
+epsilon:0.2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:INFINITY
+epsilon:0.2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:INFINITY
+epsilon:0.2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:INFINITY
+epsilon:0.2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:INFINITY
+epsilon:0.2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:INFINITY
+epsilon:0.2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:INFINITY
+epsilon:0.2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:INFINITY
+epsilon:0.2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:INFINITY
+epsilon:0.05
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:4
+epsilon:0.05
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:4
+epsilon:0.05
+number of blocks:2
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:7
+epsilon:0.05
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:4
+attempts:8
+epsilon:0.05
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:11
+epsilon:0.05
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:2
+number of blocks:1
+attempts:6
+epsilon:0.05
+number of blocks:2
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:2
+number of blocks:5
+number of blocks:18
+attempts:8
+epsilon:0.05
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:8
+epsilon:0.05
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:5
+epsilon:0.05
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:7
+epsilon:0.02
+number of blocks:1
+number of blocks:1
+number of blocks:3
+number of blocks:11
+attempts:5
+epsilon:0.02
+number of blocks:1
+number of blocks:1
+number of blocks:9
+number of blocks:8
+attempts:5
+epsilon:0.02
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:4
+epsilon:0.02
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:2
+number of blocks:1
+attempts:12
+epsilon:0.02
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:9
+number of blocks:19
+attempts:20
+epsilon:0.02
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:3
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:14
+epsilon:0.02
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:4
+epsilon:0.02
+number of blocks:1
+number of blocks:1
+number of blocks:2
+number of blocks:1
+attempts:5
+epsilon:0.02
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:6
+epsilon:0.02
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:11
+epsilon:0.01
+number of blocks:1
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:1
+attempts:8
+epsilon:0.01
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:11
+attempts:12
+epsilon:0.01
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:9
+epsilon:0.01
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:4
+epsilon:0.01
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:4
+epsilon:0.01
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:14
+epsilon:0.01
+number of blocks:1
+number of blocks:7
+attempts:3
+epsilon:0.01
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:15
+epsilon:0.01
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:11
+epsilon:0.01
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:7
+epsilon:0.001
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:5
+epsilon:0.001
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:8
+attempts:10
+epsilon:0.001
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:2
+attempts:11
+epsilon:0.001
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:3
+attempts:10
+epsilon:0.001
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:4
+epsilon:0.001
+number of blocks:1
+number of blocks:1
+number of blocks:2
+number of blocks:1
+attempts:5
+epsilon:0.001
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:6
+epsilon:0.001
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:2
+number of blocks:1
+attempts:14
+epsilon:0.001
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:7
+epsilon:0.001
+number of blocks:1
+number of blocks:5
+number of blocks:1
+number of blocks:1
+number of blocks:3
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:12
+epsilon:0
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:8
+number of blocks:1
+number of blocks:6
+number of blocks:1
+attempts:11
+epsilon:0
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:11
+epsilon:0
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:2
+number of blocks:3
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:20
+epsilon:0
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:12
+epsilon:0
+number of blocks:1
+number of blocks:3
+attempts:3
+epsilon:0
+number of blocks:1
+number of blocks:5
+number of blocks:1
+number of blocks:1
+attempts:5
+epsilon:0
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:4
+epsilon:0
+number of blocks:2
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:5
+epsilon:0
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:10
+epsilon:0
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+number of blocks:1
+attempts:9

@@ -109,7 +109,6 @@ void SARSA::updateQ(){
 }
 
 void SARSA::saveAndCloseFile(){
-	statistics << "epsilon:" << epsilon << endl;
 	if (attempts >= MAX_ATTEMPTS){
 		statistics << "attempts:INFINITY" << endl;
 
@@ -117,6 +116,15 @@ void SARSA::saveAndCloseFile(){
 		statistics << "attempts:" << attempts << endl;
 	}
 	statistics.close();
+}
+
+void SARSA::recordBlocks(unsigned int num_blocks){
+	statistics << "number of blocks:" << num_blocks << endl;
+}
+
+void SARSA::saveEpsilon(double eps){
+	this->epsilon = eps;
+	statistics << "epsilon:" << epsilon << endl;
 }
 
 SARSA::~SARSA() {}

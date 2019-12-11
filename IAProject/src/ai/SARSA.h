@@ -34,6 +34,8 @@ public:
 	Actions getActionFromEpsilonGreedy();
 	void updateQ();
 	void saveAndCloseFile();
+	void recordBlocks(unsigned int);
+	void saveEpsilon(double);
 	virtual ~SARSA();
 private:
 	Actions argmax();

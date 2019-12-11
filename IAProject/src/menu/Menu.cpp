@@ -19,7 +19,7 @@ using namespace sf;
 namespace menu {
 
 Menu::Menu() {
-	string str_text = "Breakout AI\nPress P for play Breakout\nPress C for play CPU";
+	string str_text = "Breakout AI\nPress C for play CPU";
 	if (!font.loadFromFile("ARIAL.TTF"))
 	{
 	    throw new std::exception();
